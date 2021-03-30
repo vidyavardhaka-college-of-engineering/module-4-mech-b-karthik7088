@@ -10,6 +10,7 @@ int main()
    ptr = &fno;
    qtr = &sno;
   //Calculate Sum
+  sum=*ptr+*qtr;
    printf(" Sum=%d",sum);
     return 0;
 }
